@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B3C5E361D39A16200D6F142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C5E351D39A16200D6F142 /* AppDelegate.swift */; };
+		4B3C5E3B1D39A16200D6F142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C5E391D39A16200D6F142 /* Main.storyboard */; };
+		4B3C5E3D1D39A16200D6F142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C5E3C1D39A16200D6F142 /* Assets.xcassets */; };
+		4B3C5E401D39A16200D6F142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C5E3E1D39A16200D6F142 /* LaunchScreen.storyboard */; };
+		4B3C5E481D39A17C00D6F142 /* HostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C5E471D39A17C00D6F142 /* HostVC.swift */; };
+		4B3C5E4A1D39A18700D6F142 /* ClientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C5E491D39A18700D6F142 /* ClientVC.swift */; };
+		4B3C5E4C1D39BA8400D6F142 /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C5E4B1D39BA8400D6F142 /* sample.mp3 */; };
+		4BF9D2F51D3D5D0000B7EDF5 /* NSInputStream+URLInitialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2D71D3D5D0000B7EDF5 /* NSInputStream+URLInitialization.m */; };
+		4BF9D2F61D3D5D0000B7EDF5 /* NSMutableArray+QueueMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2D91D3D5D0000B7EDF5 /* NSMutableArray+QueueMethods.m */; };
+		4BF9D2F71D3D5D0000B7EDF5 /* TDAudioMetaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2DC1D3D5D0000B7EDF5 /* TDAudioMetaInfo.m */; };
+		4BF9D2F81D3D5D0000B7EDF5 /* TDAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2DE1D3D5D0000B7EDF5 /* TDAudioPlayer.m */; };
+		4BF9D2F91D3D5D0000B7EDF5 /* TDAudioFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2E21D3D5D0000B7EDF5 /* TDAudioFileStream.m */; };
+		4BF9D2FA1D3D5D0000B7EDF5 /* TDAudioQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2E41D3D5D0000B7EDF5 /* TDAudioQueue.m */; };
+		4BF9D2FB1D3D5D0000B7EDF5 /* TDAudioQueueBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2E61D3D5D0000B7EDF5 /* TDAudioQueueBuffer.m */; };
+		4BF9D2FC1D3D5D0000B7EDF5 /* TDAudioQueueBufferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2E81D3D5D0000B7EDF5 /* TDAudioQueueBufferManager.m */; };
+		4BF9D2FD1D3D5D0000B7EDF5 /* TDAudioQueueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2EA1D3D5D0000B7EDF5 /* TDAudioQueueController.m */; };
+		4BF9D2FE1D3D5D0000B7EDF5 /* TDAudioQueueFiller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2EC1D3D5D0000B7EDF5 /* TDAudioQueueFiller.m */; };
+		4BF9D2FF1D3D5D0000B7EDF5 /* TDAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2EE1D3D5D0000B7EDF5 /* TDAudioStream.m */; };
+		4BF9D3001D3D5D0000B7EDF5 /* TDAudioInputStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2F01D3D5D0000B7EDF5 /* TDAudioInputStreamer.m */; };
+		4BF9D3011D3D5D0000B7EDF5 /* TDAudioOutputStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2F21D3D5D0000B7EDF5 /* TDAudioOutputStreamer.m */; };
+		4BF9D3021D3D5D0000B7EDF5 /* TDAudioPlayerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D2F41D3D5D0000B7EDF5 /* TDAudioPlayerConstants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B3C5E321D39A16200D6F142 /* MultipeerConnectivitySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerConnectivitySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3C5E351D39A16200D6F142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B3C5E3A1D39A16200D6F142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B3C5E3C1D39A16200D6F142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3C5E3F1D39A16200D6F142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B3C5E411D39A16200D6F142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3C5E471D39A17C00D6F142 /* HostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostVC.swift; sourceTree = "<group>"; };
+		4B3C5E491D39A18700D6F142 /* ClientVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientVC.swift; sourceTree = "<group>"; };
+		4B3C5E4B1D39BA8400D6F142 /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
+		4BF9D2D61D3D5D0000B7EDF5 /* NSInputStream+URLInitialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInputStream+URLInitialization.h"; sourceTree = "<group>"; };
+		4BF9D2D71D3D5D0000B7EDF5 /* NSInputStream+URLInitialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInputStream+URLInitialization.m"; sourceTree = "<group>"; };
+		4BF9D2D81D3D5D0000B7EDF5 /* NSMutableArray+QueueMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueMethods.h"; sourceTree = "<group>"; };
+		4BF9D2D91D3D5D0000B7EDF5 /* NSMutableArray+QueueMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueMethods.m"; sourceTree = "<group>"; };
+		4BF9D2DB1D3D5D0000B7EDF5 /* TDAudioMetaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioMetaInfo.h; sourceTree = "<group>"; };
+		4BF9D2DC1D3D5D0000B7EDF5 /* TDAudioMetaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioMetaInfo.m; sourceTree = "<group>"; };
+		4BF9D2DD1D3D5D0000B7EDF5 /* TDAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioPlayer.h; sourceTree = "<group>"; };
+		4BF9D2DE1D3D5D0000B7EDF5 /* TDAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioPlayer.m; sourceTree = "<group>"; };
+		4BF9D2E11D3D5D0000B7EDF5 /* TDAudioFileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioFileStream.h; sourceTree = "<group>"; };
+		4BF9D2E21D3D5D0000B7EDF5 /* TDAudioFileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioFileStream.m; sourceTree = "<group>"; };
+		4BF9D2E31D3D5D0000B7EDF5 /* TDAudioQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueue.h; sourceTree = "<group>"; };
+		4BF9D2E41D3D5D0000B7EDF5 /* TDAudioQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueue.m; sourceTree = "<group>"; };
+		4BF9D2E51D3D5D0000B7EDF5 /* TDAudioQueueBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueBuffer.h; sourceTree = "<group>"; };
+		4BF9D2E61D3D5D0000B7EDF5 /* TDAudioQueueBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueBuffer.m; sourceTree = "<group>"; };
+		4BF9D2E71D3D5D0000B7EDF5 /* TDAudioQueueBufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueBufferManager.h; sourceTree = "<group>"; };
+		4BF9D2E81D3D5D0000B7EDF5 /* TDAudioQueueBufferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueBufferManager.m; sourceTree = "<group>"; };
+		4BF9D2E91D3D5D0000B7EDF5 /* TDAudioQueueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueController.h; sourceTree = "<group>"; };
+		4BF9D2EA1D3D5D0000B7EDF5 /* TDAudioQueueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueController.m; sourceTree = "<group>"; };
+		4BF9D2EB1D3D5D0000B7EDF5 /* TDAudioQueueFiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioQueueFiller.h; sourceTree = "<group>"; };
+		4BF9D2EC1D3D5D0000B7EDF5 /* TDAudioQueueFiller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioQueueFiller.m; sourceTree = "<group>"; };
+		4BF9D2ED1D3D5D0000B7EDF5 /* TDAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioStream.h; sourceTree = "<group>"; };
+		4BF9D2EE1D3D5D0000B7EDF5 /* TDAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioStream.m; sourceTree = "<group>"; };
+		4BF9D2EF1D3D5D0000B7EDF5 /* TDAudioInputStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioInputStreamer.h; sourceTree = "<group>"; };
+		4BF9D2F01D3D5D0000B7EDF5 /* TDAudioInputStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioInputStreamer.m; sourceTree = "<group>"; };
+		4BF9D2F11D3D5D0000B7EDF5 /* TDAudioOutputStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioOutputStreamer.h; sourceTree = "<group>"; };
+		4BF9D2F21D3D5D0000B7EDF5 /* TDAudioOutputStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioOutputStreamer.m; sourceTree = "<group>"; };
+		4BF9D2F31D3D5D0000B7EDF5 /* TDAudioPlayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAudioPlayerConstants.h; sourceTree = "<group>"; };
+		4BF9D2F41D3D5D0000B7EDF5 /* TDAudioPlayerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAudioPlayerConstants.m; sourceTree = "<group>"; };
+		4BF9D3061D3D5E7D00B7EDF5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3C5E2F1D39A16200D6F142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B3C5E291D39A16200D6F142 = {
+			isa = PBXGroup;
+			children = (
+				4B3C5E341D39A16200D6F142 /* MultipeerConnectivitySample */,
+				4B3C5E331D39A16200D6F142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3C5E331D39A16200D6F142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3C5E321D39A16200D6F142 /* MultipeerConnectivitySample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3C5E341D39A16200D6F142 /* MultipeerConnectivitySample */ = {
+			isa = PBXGroup;
+			children = (
+				4BF9D2D31D3D5D0000B7EDF5 /* AudioPlayerLibrary */,
+				4B3C5E351D39A16200D6F142 /* AppDelegate.swift */,
+				4B3C5E471D39A17C00D6F142 /* HostVC.swift */,
+				4B3C5E491D39A18700D6F142 /* ClientVC.swift */,
+				4BF9D3061D3D5E7D00B7EDF5 /* Header.h */,
+				4B3C5E4B1D39BA8400D6F142 /* sample.mp3 */,
+				4B3C5E391D39A16200D6F142 /* Main.storyboard */,
+				4B3C5E3C1D39A16200D6F142 /* Assets.xcassets */,
+				4B3C5E3E1D39A16200D6F142 /* LaunchScreen.storyboard */,
+				4B3C5E411D39A16200D6F142 /* Info.plist */,
+			);
+			path = MultipeerConnectivitySample;
+			sourceTree = "<group>";
+		};
+		4BF9D2D31D3D5D0000B7EDF5 /* AudioPlayerLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4BF9D2D41D3D5D0000B7EDF5 /* AudioPlayer */,
+				4BF9D2DF1D3D5D0000B7EDF5 /* AudioStreamer */,
+				4BF9D2F31D3D5D0000B7EDF5 /* TDAudioPlayerConstants.h */,
+				4BF9D2F41D3D5D0000B7EDF5 /* TDAudioPlayerConstants.m */,
+			);
+			path = AudioPlayerLibrary;
+			sourceTree = "<group>";
+		};
+		4BF9D2D41D3D5D0000B7EDF5 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4BF9D2D51D3D5D0000B7EDF5 /* Categories */,
+				4BF9D2DA1D3D5D0000B7EDF5 /* Classes */,
+				4BF9D2DD1D3D5D0000B7EDF5 /* TDAudioPlayer.h */,
+				4BF9D2DE1D3D5D0000B7EDF5 /* TDAudioPlayer.m */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		4BF9D2D51D3D5D0000B7EDF5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4BF9D2D61D3D5D0000B7EDF5 /* NSInputStream+URLInitialization.h */,
+				4BF9D2D71D3D5D0000B7EDF5 /* NSInputStream+URLInitialization.m */,
+				4BF9D2D81D3D5D0000B7EDF5 /* NSMutableArray+QueueMethods.h */,
+				4BF9D2D91D3D5D0000B7EDF5 /* NSMutableArray+QueueMethods.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4BF9D2DA1D3D5D0000B7EDF5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BF9D2DB1D3D5D0000B7EDF5 /* TDAudioMetaInfo.h */,
+				4BF9D2DC1D3D5D0000B7EDF5 /* TDAudioMetaInfo.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4BF9D2DF1D3D5D0000B7EDF5 /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				4BF9D2E01D3D5D0000B7EDF5 /* Classes */,
+				4BF9D2EF1D3D5D0000B7EDF5 /* TDAudioInputStreamer.h */,
+				4BF9D2F01D3D5D0000B7EDF5 /* TDAudioInputStreamer.m */,
+				4BF9D2F11D3D5D0000B7EDF5 /* TDAudioOutputStreamer.h */,
+				4BF9D2F21D3D5D0000B7EDF5 /* TDAudioOutputStreamer.m */,
+			);
+			path = AudioStreamer;
+			sourceTree = "<group>";
+		};
+		4BF9D2E01D3D5D0000B7EDF5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BF9D2E11D3D5D0000B7EDF5 /* TDAudioFileStream.h */,
+				4BF9D2E21D3D5D0000B7EDF5 /* TDAudioFileStream.m */,
+				4BF9D2E31D3D5D0000B7EDF5 /* TDAudioQueue.h */,
+				4BF9D2E41D3D5D0000B7EDF5 /* TDAudioQueue.m */,
+				4BF9D2E51D3D5D0000B7EDF5 /* TDAudioQueueBuffer.h */,
+				4BF9D2E61D3D5D0000B7EDF5 /* TDAudioQueueBuffer.m */,
+				4BF9D2E71D3D5D0000B7EDF5 /* TDAudioQueueBufferManager.h */,
+				4BF9D2E81D3D5D0000B7EDF5 /* TDAudioQueueBufferManager.m */,
+				4BF9D2E91D3D5D0000B7EDF5 /* TDAudioQueueController.h */,
+				4BF9D2EA1D3D5D0000B7EDF5 /* TDAudioQueueController.m */,
+				4BF9D2EB1D3D5D0000B7EDF5 /* TDAudioQueueFiller.h */,
+				4BF9D2EC1D3D5D0000B7EDF5 /* TDAudioQueueFiller.m */,
+				4BF9D2ED1D3D5D0000B7EDF5 /* TDAudioStream.h */,
+				4BF9D2EE1D3D5D0000B7EDF5 /* TDAudioStream.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3C5E311D39A16200D6F142 /* MultipeerConnectivitySample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3C5E441D39A16200D6F142 /* Build configuration list for PBXNativeTarget "MultipeerConnectivitySample" */;
+			buildPhases = (
+				4B3C5E2E1D39A16200D6F142 /* Sources */,
+				4B3C5E2F1D39A16200D6F142 /* Frameworks */,
+				4B3C5E301D39A16200D6F142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipeerConnectivitySample;
+			productName = MultipeerConnectivitySample;
+			productReference = 4B3C5E321D39A16200D6F142 /* MultipeerConnectivitySample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3C5E2A1D39A16200D6F142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Krimpedance;
+				TargetAttributes = {
+					4B3C5E311D39A16200D6F142 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C9S69ME8A5;
+					};
+				};
+			};
+			buildConfigurationList = 4B3C5E2D1D39A16200D6F142 /* Build configuration list for PBXProject "MultipeerConnectivitySample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B3C5E291D39A16200D6F142;
+			productRefGroup = 4B3C5E331D39A16200D6F142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3C5E311D39A16200D6F142 /* MultipeerConnectivitySample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3C5E301D39A16200D6F142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3C5E401D39A16200D6F142 /* LaunchScreen.storyboard in Resources */,
+				4B3C5E4C1D39BA8400D6F142 /* sample.mp3 in Resources */,
+				4B3C5E3D1D39A16200D6F142 /* Assets.xcassets in Resources */,
+				4B3C5E3B1D39A16200D6F142 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3C5E2E1D39A16200D6F142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF9D3011D3D5D0000B7EDF5 /* TDAudioOutputStreamer.m in Sources */,
+				4B3C5E481D39A17C00D6F142 /* HostVC.swift in Sources */,
+				4BF9D2F51D3D5D0000B7EDF5 /* NSInputStream+URLInitialization.m in Sources */,
+				4BF9D2FF1D3D5D0000B7EDF5 /* TDAudioStream.m in Sources */,
+				4BF9D2FA1D3D5D0000B7EDF5 /* TDAudioQueue.m in Sources */,
+				4BF9D3001D3D5D0000B7EDF5 /* TDAudioInputStreamer.m in Sources */,
+				4B3C5E361D39A16200D6F142 /* AppDelegate.swift in Sources */,
+				4BF9D2F61D3D5D0000B7EDF5 /* NSMutableArray+QueueMethods.m in Sources */,
+				4BF9D2FC1D3D5D0000B7EDF5 /* TDAudioQueueBufferManager.m in Sources */,
+				4BF9D2F91D3D5D0000B7EDF5 /* TDAudioFileStream.m in Sources */,
+				4BF9D3021D3D5D0000B7EDF5 /* TDAudioPlayerConstants.m in Sources */,
+				4BF9D2FB1D3D5D0000B7EDF5 /* TDAudioQueueBuffer.m in Sources */,
+				4BF9D2F81D3D5D0000B7EDF5 /* TDAudioPlayer.m in Sources */,
+				4B3C5E4A1D39A18700D6F142 /* ClientVC.swift in Sources */,
+				4BF9D2FD1D3D5D0000B7EDF5 /* TDAudioQueueController.m in Sources */,
+				4BF9D2FE1D3D5D0000B7EDF5 /* TDAudioQueueFiller.m in Sources */,
+				4BF9D2F71D3D5D0000B7EDF5 /* TDAudioMetaInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B3C5E391D39A16200D6F142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3C5E3A1D39A16200D6F142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B3C5E3E1D39A16200D6F142 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3C5E3F1D39A16200D6F142 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B3C5E421D39A16200D6F142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B3C5E431D39A16200D6F142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3C5E451D39A16200D6F142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MultipeerConnectivitySample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mond.krimpedance.MultipeerConnectivitySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MultipeerConnectivitySample/Header.h";
+			};
+			name = Debug;
+		};
+		4B3C5E461D39A16200D6F142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MultipeerConnectivitySample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mond.krimpedance.MultipeerConnectivitySample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/MultipeerConnectivitySample/Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3C5E2D1D39A16200D6F142 /* Build configuration list for PBXProject "MultipeerConnectivitySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3C5E421D39A16200D6F142 /* Debug */,
+				4B3C5E431D39A16200D6F142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3C5E441D39A16200D6F142 /* Build configuration list for PBXNativeTarget "MultipeerConnectivitySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3C5E451D39A16200D6F142 /* Debug */,
+				4B3C5E461D39A16200D6F142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B3C5E2A1D39A16200D6F142 /* Project object */;
+}
